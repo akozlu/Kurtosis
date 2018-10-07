@@ -1,5 +1,5 @@
 #Q1
-my.data <- load('hw3_2018.RData')
+my.data <- load('stocks.RData')
 print(class(my.data))
 
 daily.ret <- function(prices) {
